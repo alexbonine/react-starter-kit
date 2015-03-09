@@ -58,6 +58,7 @@
     "protractor": "^1.8.0",
     "psi": "^1.0.6",
     "react-tools": "^0.12.2",
+    "require-dir": "^0.1.0",
     "run-sequence": "^1.0.2",
     "style-loader": "^0.8.3",
     "url-loader": "^0.5.5",
