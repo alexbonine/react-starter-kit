@@ -30,7 +30,10 @@ module.exports = {
       'bb >= 10'
     ],
     src: src + '/styles/**/*.{css,less}',
-    srcFile: src + '/styles/bootstrap.less',
+    srcFiles: [
+      src + '/styles/bootstrap.less',
+      src + '/styles/material-ui.less'
+    ],
     dest: dest + '/css'
   },
   vendor: {

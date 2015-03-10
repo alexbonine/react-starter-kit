@@ -16,9 +16,12 @@
     "express": "4.12.2",
     "flux": "2.0.1",
     "front-matter": "1.0.0",
+    "immutable": "^3.6.4",
     "jade": "1.9.2",
     "lodash": "3.4.0",
+    "material-ui": "^0.7.1",
     "react": "0.12.2",
+    "react-tap-event-plugin": "^0.1.4",
     "superagent": "0.21.0"
   },
   "devDependencies": {

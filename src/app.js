@@ -16,6 +16,7 @@ import App from './components/App';
 import Dispatcher from './core/Dispatcher';
 import AppActions from './actions/AppActions';
 import ActionTypes from './constants/ActionTypes';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 var path = decodeURI(window.location.pathname);
 var setMetaTag = (name, content) => {
@@ -50,6 +51,8 @@ function run() {
       app.setProps({path: decodeURI(payload.action.path)});
     }
   });
+
+  injectTapEventPlugin();  // required by material UI until React v1
 }
 
 // Run the application when both DOM is ready

@@ -8,7 +8,7 @@ var RELEASE = !!argv.release;
 
 // CSS style sheets
 gulp.task('styles', function() {
-  return gulp.src(config.srcFile)
+  return gulp.src(config.srcFiles)
     .pipe($.plumber())
     .pipe($.less({
       sourceMap: !RELEASE,
